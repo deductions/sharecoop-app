@@ -1,0 +1,54 @@
+<html>
+
+    <head>
+      <title>ShareCoop</title>
+
+      <meta http-equiv="Content-type" content="text/html; charset=UTF-8"></meta>
+      <link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
+
+      javascriptCSSImports
+      
+      <style type="text/css">
+        .resize {{ resize: both; width: 100%; height: 100%; }}
+        .overflow {{ overflow: auto; width: 100%; height: 100%; }}
+				.unselectable {{
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}}
+.selectable {{
+  user-select: text;
+  -moz-user-select: text;
+  -webkit-user-select: text;
+  -ms-user-select: text;
+}}
+      </style>
+    </head>
+
+<body>
+    <script>
+  var prefix = "urn:ShareCoop/vocab#"
+  var prefix_sform = "urn:ShareCoop/forms#"
+</script>
+
+	<div class="container">
+		<div class="row">
+			<h3>Bienvenue à Share.Coop</h3>
+			Participez à Share.Coop !
+			<br/>
+			<a href="http://share.coop">Share.Coop</a>
+		</div>
+    Créer votre compte Share.Coop
+    <script>
+    creationButton( "http://xmlns.com/foaf/0.1/Person", "Créer",
+        s"${prefix_sform}exchangePersonForm" )
+</script>
+  </div>
+
+  /** bas de page **/
+<div><a href="mailto:gmail@7738.net">Contact</a></div> ,
+        <a href="assets/sharecoop.html">Qu'est Share.Coop?</a> ,
+
+</body>
+</html>
